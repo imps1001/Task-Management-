@@ -9,7 +9,7 @@ const generateNewCard = (taskData) => `
   <button type="button" class="btn btn-outline-danger" id=${taskData.id} onclick="deleteCard.apply(this,arguments)"><i class="fas fa-trash-alt" id=${taskData.id} onclick="deleteCard.apply(this,arguments)"></i></button>
   </div>
   <div class="card-body">
-  <img class="card-img-top" src=${taskData.imageUrl} height="209" width="336" alt="...">
+  <img class="card-img-top" src=g${taskData.imageUrl} height="209" width="336" alt="...">
    <h5 class="card-title mt-3 fw-bolder text-primary">${taskData.taskTitle}</h5>
    <p class="card-text">${taskData.taskDescription}</p>
    <a href="#" class="btn btn-primary">${taskData.taskType}</a>
